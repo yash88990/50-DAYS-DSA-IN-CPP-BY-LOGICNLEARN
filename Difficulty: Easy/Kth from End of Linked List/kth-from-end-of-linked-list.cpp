@@ -9,29 +9,31 @@
 
 // Function to find the data of kth node from the end of a linked list.
 class Solution {
-    void reverselist(Node* &head){
-        Node* curr = head , *prev = NULL;
-        while(curr){
-            Node* temp = curr->next;
-            curr->next = prev ;
-            prev = curr ;
-            curr = temp;
-        }
-        head = prev;
-        
-    }
   public:
-    int getKthFromLast(Node *head, int k) {
-        // Your code here
-        reverselist(head);
+    int getCount(struct Node* head) {
+
+        // Code here
+        int count = 0;
         Node* curr = head;
-        int count = 1 ;
-        while(count < k && curr ){
+        while(curr){
             curr = curr->next;
             count++;
         }
-        if(curr)return curr->data;
-        else return -1;
+        return count;
+    }
+    
+    int getKthFromLast(Node *head, int k) {
+        // Your code here
         
+        int length = getCount(head);
+        if(k > length)return -1;
+         Node* curr = head;
+        int neededindex = length - k ;
+        int count = 0;
+        while(count < neededindex){
+            curr = curr->next;
+            count++;
+        }
+        return curr->data;
     }
 };
