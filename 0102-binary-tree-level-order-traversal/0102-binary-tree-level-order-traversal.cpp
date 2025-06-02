@@ -24,7 +24,7 @@ public:
                 q.pop();
                 level.push_back(curr->val);
                 if(curr->left)q.push(curr->left);
-            if(curr->right)q.push(curr->right);
+                if(curr->right)q.push(curr->right);
 
             }
             
