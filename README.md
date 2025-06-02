@@ -43,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## String
+|  |
+| ------- |
+| [0058-length-of-last-word](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0058-length-of-last-word) |
 <!---LeetCode Topics End-->
