@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0908-middle-of-the-linked-list) |
 | [2816-lexicographically-smallest-palindrome](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2816-lexicographically-smallest-palindrome) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Math
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3201-distribute-candies-among-children-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3201-distribute-candies-among-children-ii) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Stack
 |  |
 | ------- |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0058-length-of-last-word](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0058-length-of-last-word) |
 | [2816-lexicographically-smallest-palindrome](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2816-lexicographically-smallest-palindrome) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Breadth-First Search
 |  |
 | ------- |
