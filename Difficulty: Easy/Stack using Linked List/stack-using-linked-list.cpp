@@ -3,22 +3,23 @@ class MyStack {
     StackNode *top;
 
   public:
-     // Function to push an element onto the stack
     void push(int x) {
-        StackNode* new_node = new StackNode(x);
-        // if(!new_node) return;
-        new_node->next = top;
-        top = new_node;
+        // code here
+        StackNode* newNode = new StackNode(x);
+        newNode->next = top;
+        top = newNode;
+        
     }
 
-    // Function to remove and return the top element of the stack
     int pop() {
-        if(top == NULL) return -1; 
-        else {
+        
+        // code here
+        if(top == NULL)return -1;
+        else{
             int popped = top->data;
             StackNode* temp = top;
             top = top->next;
-            delete temp;
+            delete  temp;
             return popped;
         }
     }
