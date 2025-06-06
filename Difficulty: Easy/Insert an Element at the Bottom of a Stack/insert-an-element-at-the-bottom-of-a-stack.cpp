@@ -2,21 +2,20 @@
 
 class Solution {
   public:
-    void solve(stack<int> &st, int x){
+    void solve(stack<int> &s, int x){
         //base case 
-        if(st.empty()){
-            st.push(x);
+        if(s.empty()){
+            s.push(x);
             return;
         }
-        int temp = st.top();
-        st.pop();
-        ///recc
-        solve(st , x);
-        st.push(temp);
+        int temp = s.top();
+        s.pop();
+        //recc
+        solve(s , x);
+        s.push(temp);
     }
     stack<int> insertAtBottom(stack<int> st, int x) {
-        
-        solve(st, x);
+        solve(st , x);
         return st;
     }
 };
