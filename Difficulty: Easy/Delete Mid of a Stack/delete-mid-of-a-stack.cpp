@@ -1,22 +1,22 @@
 class Solution {
   public:
-     void solve(stack<int>& s , int size , int count){
-         //base case 
-         if(count == (size ) / 2 ){
+     void solve(stack<int>&s , int count , int n){
+         //base case
+         if(count  == n / 2){
              s.pop();
              return;
          }
          int temp = s.top();
          s.pop();
          //recc
-         solve(s , size ,count + 1  );
+         solve(s , count + 1 , n);
          s.push(temp);
      }
     // Function to delete middle element of a stack.
     void deleteMid(stack<int>& s) {
         // code here..
-        int size = s.size();
         int count = 0;
-        solve(s , size , count);
+        int n = s.size();
+        solve(s , count , n);
     }
 };
