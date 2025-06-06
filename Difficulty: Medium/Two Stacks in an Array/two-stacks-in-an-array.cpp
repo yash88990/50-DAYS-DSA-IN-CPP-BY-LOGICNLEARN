@@ -1,12 +1,12 @@
 class twoStacks {
-    private:
     int *arr;
-    int size;
-    int top1;
+    int size ;
+    int top1 ;
     int top2;
+    
   public:
 
-    twoStacks( ) {
+    twoStacks() {
         size = 100;
         arr = new int[size];
         top1 = -1;
@@ -31,18 +31,19 @@ class twoStacks {
             top2--;
             arr[top2] = x;
         }
+        
     }
 
     // Function to remove an element from top of the stack1.
         
     int pop1() {
         // code here
-        if(top1 == -1)return -1;
-        else{
-            int popped = arr[top1];
-            top1--;
-            return popped;
-        }
+       if(top1 == -1)return -1;
+       else{
+           int temp = arr[top1];
+           top1--;
+           return temp;
+       }
     }
 
         
@@ -51,9 +52,9 @@ class twoStacks {
         // code here
         if(top2 == size)return -1;
         else{
-            int popped = arr[top2];
+            int temp = arr[top2];
             top2++;
-            return popped;
+            return temp;
         }
     }
 };
