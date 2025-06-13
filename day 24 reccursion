@@ -1,0 +1,210 @@
+//print 1 to n 
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+void print(int i , int n){
+    //base case 
+    if(i > n)return;
+    // ..processing 
+    cout<<i<<" ";
+    i++;
+    //recc
+    print(i , n);
+}
+
+int main() {
+    int n ;
+    cout<<"enter the value of n : "<<endl;
+    cin>>n;
+    print(1 , n);
+    
+
+    return 0;
+}
+
+
+
+
+//2. print n to 1
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+void print(int n){
+    //base case 
+    if(n == 0)return;
+    // ..processing 
+    cout<<n<<" ";
+    n--;
+   
+    //recc
+    print(n);
+   
+}
+
+int main() {
+    int n ;
+    cout<<"enter the value of n : "<<endl;
+    cin>>n;
+    print(n);
+    
+
+    return 0;
+}
+
+
+
+
+//3. sum of n natural nnumber 
+#include<iostream>
+using namespace std;
+int sumN(int n ){
+    //base case 
+    if(n == 0)return 0;
+    //proeccesing and reccursive case
+    return n + sumN(n -1);
+}
+int main(){
+    int n ;
+    cout<<"enter n :"<<endl;
+    cin>>n;
+    cout<<sumN(n);
+}
+
+
+// 4. factorial
+#include<iostream>
+using namespace std;
+int fact(int n){
+    //base case
+    if(n == 0 || n== 1 )return 1;
+    // /recc case
+    return n * fact(n-1);
+}
+int main(){
+    int n ;
+    cout<<"enter n :"<<endl;
+    cin>>n;
+    cout<<fact(n)<<endl;
+}
+
+
+
+// 5 fibonaci
+#include<iostream>
+using namespace std;
+int fib(int n){
+    //base case
+    if(n <= 1 )return n;
+    // /recc case
+    return fib(n-1) + fib(n-2);
+}
+int main(){
+    int n ;
+    cout<<"enter n :"<<endl;
+    cin>>n;
+    cout<<fib(n)<<endl;
+}
+
+
+//6  check for palindrome
+#include<iostream>
+using namespace std;
+
+bool ispalindrome(string &ch , int s , int e){
+    //base case 
+    if( s > e)return true;
+    if(ch[s] != ch[e])return false;
+    return ispalindrome(ch , s + 1 , e - 1);
+}
+int main(){
+    string ch;
+    cout<<"enter the word: "<<endl;
+    cin>>ch;
+    if(ispalindrome(ch , 0 , ch.size() - 1))cout<<"yes"<<endl;
+    else cout<<"no"<<endl;
+    return 0;
+    
+}
+
+
+//7  . reverse an array
+#include<iostream>
+using namespace std;
+void rev(int arr[] , int s , int e){
+    //base case 
+    if(s > e)return ;
+    swap(arr[s] , arr[e]);
+    rev(arr , s + 1 , e -1);
+}
+int main(){
+    int arr[5] = {1,2,3,4,5};
+    rev(arr , 0 , 4);
+    for(int i = 0 ; i < 5 ;i++){
+        cout<<arr[i]<<" ";
+    }
+    return 0;
+    
+}
+
+
+
+//8.count digit
+#include<iostream>
+using namespace std;
+int countDigit(int n){
+    if(n==0)return 0;
+    return 1 + countDigit(n /10);
+}
+int main(){
+    int n ;
+    cout<<"enter n : "<<endl;
+    cin>>n;
+    cout<<countDigit(n);
+
+    return 0;
+    
+}
+
+
+
+//9.sum of digit
+#include<iostream>
+using namespace std;
+int  sumdigit( int n){
+    //base case
+    if(n==0)return 0;
+    return (n % 10) + sumdigit(n /10);
+}
+int main(){
+    int n ;
+    cout<<"enter n : "<<endl;
+    cin>>n;
+    cout<<sumdigit(n);
+    return 0;
+    
+}
+
+
+
+# 10.calculate power
+#include<iostream>
+using namespace std;
+int calculatePower(int x , int y){
+    //base case
+    if(y == 0)return 1;
+    return x * calculatePower(x , y - 1);
+}
+int main(){
+    int x,y ;
+    cout<<"enter x and y: "<<endl;
+    cin>>x>>y;
+    cout<<calculatePower(x , y);
+   
+    
+}
+
+
+
