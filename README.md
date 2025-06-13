@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0792-binary-search) |
 | [0051-n-queens](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0051-n-queens) |
 | [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Matrix
 |  |
 | ------- |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2816-lexicographically-smallest-palindrome](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2816-lexicographically-smallest-palindrome) |
 | [0135-candy](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0135-candy) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Graph
 |  |
 | ------- |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0792-binary-search](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0792-binary-search) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Backtracking
 |  |
 | ------- |
