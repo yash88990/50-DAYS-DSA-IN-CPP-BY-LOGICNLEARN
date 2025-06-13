@@ -22,14 +22,14 @@ public:
                         if (isSafe(row, col, board, ch)) {
                             board[row][col] = ch;
                             if (solve(board)) return true;
-                            board[row][col] = '.';  // backtrack
+                            board[row][col] = '.'; 
                         }
                     }
-                    return false;  // no valid number found
+                    return false;  
                 }
             }
         }
-        return true;  // all cells filled
+        return true;  
     }
 
     void solveSudoku(vector<vector<char>>& board) {
