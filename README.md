@@ -82,10 +82,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [0792-binary-search](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0792-binary-search) |
 | [0051-n-queens](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0051-n-queens) |
+| [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0048-rotate-image) |
+| [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
 ## Greedy
 |  |
 | ------- |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
 ## Counting
 |  |
 | ------- |
@@ -124,4 +127,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0051-n-queens) |
+| [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
