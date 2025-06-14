@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3201-distribute-candies-among-children-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3201-distribute-candies-among-children-ii) |
 | [0048-rotate-image](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0048-rotate-image) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 ## Combinatorics
 |  |
 | ------- |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2816-lexicographically-smallest-palindrome](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2816-lexicographically-smallest-palindrome) |
 | [0135-candy](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0135-candy) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 ## Graph
 |  |
 | ------- |
