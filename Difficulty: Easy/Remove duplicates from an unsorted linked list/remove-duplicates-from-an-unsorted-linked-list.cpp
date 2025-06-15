@@ -15,9 +15,8 @@ class Solution {
   public:
     Node *removeDuplicates(Node *head) {
         // your code goes here
-        if(!head)return NULL;
-        unordered_set<int> seen;
-        Node* prev = NULL , *curr = head;
+        unordered_set<int>seen;
+        Node* curr = head , *prev = NULL;
         while(curr){
             if(seen.find(curr->data) != seen.end()){
                 prev->next = curr->next;
@@ -28,7 +27,19 @@ class Solution {
                 prev = curr;
                 curr = curr->next;
             }
+            
         }
         return head;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
