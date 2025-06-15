@@ -12,17 +12,14 @@ class Solution {
   public:
     Node* reverseList(struct Node* head) {
         // code here
-        Node* prev = NULL;
-        Node* next = NULL;
-        Node* curr = head;
-        while(curr != NULL){
-            next = curr->next;
-            curr->next = prev ;
+        Node* curr = head, *prev = NULL;
+        while(curr){
+            Node* temp = curr->next;
+            curr->next = prev;
             prev = curr;
-            curr= next;
-            
+            curr= temp;
         }
         return prev;
+        
     }
 };
-
