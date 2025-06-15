@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0237-delete-node-in-a-linked-list) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0328-odd-even-linked-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0328-odd-even-linked-list) |
 ## Recursion
 |  |
 | ------- |
