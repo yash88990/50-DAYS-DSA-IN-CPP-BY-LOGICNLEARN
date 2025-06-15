@@ -26,8 +26,8 @@ public:
         //step 2 :- compute the position from starting 
         int pos = count - n;
         temp = head;
-        int i = 1;
-        while( i < pos){
+        int i = 0;
+        while( i < pos - 1){
             temp = temp->next;
             i++;
         }
