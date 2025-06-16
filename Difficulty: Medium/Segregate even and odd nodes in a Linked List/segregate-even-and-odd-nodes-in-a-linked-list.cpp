@@ -15,47 +15,59 @@ struct Node
 class Solution {
   public:
     Node* divide(Node* head) {
-        if (!head) return nullptr;
-
-        Node* evenStart = nullptr;
-        Node* evenEnd = nullptr;
-        Node* oddStart = nullptr;
-        Node* oddEnd = nullptr;
-
+        // code here
+        if(!head)return head;
+        Node* evenStart = NULL , *evenEnd = NULL, *oddStart = NULL , *oddEnd = NULL;
         Node* curr = head;
-
-        while (curr) {
+        while(curr){
+            //check for val 
             int val = curr->data;
-
-            if (val % 2 == 0) { // even node
-                if (!evenStart) {
+            //check for even or odd
+            //even value
+            if(val % 2 == 0){
+                //check for firsst node
+                if(!evenStart){
                     evenStart = curr;
                     evenEnd = evenStart;
-                } else {
+                }else{
+                    //means we have some node
                     evenEnd->next = curr;
                     evenEnd = evenEnd->next;
                 }
-            } else { // odd node
-                if (!oddStart) {
+                
+            }else{//odd vaue
+                if(!oddStart){
                     oddStart = curr;
                     oddEnd = oddStart;
-                } else {
+                }else{
                     oddEnd->next = curr;
                     oddEnd = oddEnd->next;
                 }
             }
             curr = curr->next;
         }
-
-        // If no even nodes, return odd list as is
-        if (!evenStart) return oddStart;
-
-        // Connect even list to odd list
-        evenEnd->next = oddStart;
-
-        // End the list
-        if (oddEnd) oddEnd->next = nullptr;
-
+        //if we dont have evenstart menas in linke dlist we dont have even value
+        if(!evenStart)return oddStart;
+        //connect them
+        evenEnd ->next = oddStart;
+        //terminate the list
+        oddEnd->next = NULL;
+        //return teh final answer after connecting 
         return evenStart;
+        
+        
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
