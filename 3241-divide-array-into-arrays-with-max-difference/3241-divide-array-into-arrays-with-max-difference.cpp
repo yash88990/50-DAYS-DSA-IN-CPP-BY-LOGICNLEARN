@@ -12,7 +12,7 @@ public:
             if (currentSubarray[2] - currentSubarray[0] > k) {
                 return {}; 
             }
-            result.emplace_back(currentSubarray);
+            result.push_back(currentSubarray);
         }
         return result;
     }
