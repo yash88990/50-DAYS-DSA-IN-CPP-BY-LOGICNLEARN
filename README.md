@@ -169,4 +169,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0018-4sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0201-bitwise-and-of-numbers-range](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0201-bitwise-and-of-numbers-range) |
 <!---LeetCode Topics End-->
