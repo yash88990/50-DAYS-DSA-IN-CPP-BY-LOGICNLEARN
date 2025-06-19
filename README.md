@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0344-reverse-string) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0015-3sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0018-4sum) |
 ## Math
 |  |
 | ------- |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0219-contains-duplicate-ii) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [0015-3sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0018-4sum) |
 ## Matrix
 |  |
 | ------- |
@@ -160,4 +162,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [0015-3sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0018-4sum) |
 <!---LeetCode Topics End-->
