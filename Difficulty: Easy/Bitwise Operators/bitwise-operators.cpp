@@ -7,7 +7,7 @@ void bitWiseOperation(int a, int b, int c) {
     int e = c^b;
     int f = a&b;
     int g = c | d;
-    
-    cout<<d<<endl<<e<<endl<<f<<endl<<g<<endl<<(~e)<<endl;
+    int h = (~e);
+    cout<<d<<endl<<e<<endl<<f<<endl<<g<<endl<<h<<endl;
 
 }
