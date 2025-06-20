@@ -1,15 +1,20 @@
 class Solution {
   public:
-    int countBitsFlip(int a, int b) {
-        // code here
-        int count=0;
-        while(a>0 || b>0)
-        {
-            if(a%2!=b%2)
-            count++;
-            a=a/2;
-            b=b/2;
+  int setBits(int n) {
+        // Write Your Code here
+        int count =0;
+        while( n  != 0){
+            if(n & 1)count++;
+            n = n >> 1;
+            
         }
         return count;
+        
+    }
+    int countBitsFlip(int a, int b) {
+        // code here
+        int c = a ^ b;
+        int ans = setBits(c);
+        return ans;
     }
 };
