@@ -1,8 +1,8 @@
 class Solution {
 public:
     int rangeBitwiseAnd(int left, int right) {
-        while (left < right) {
-            right &= (right - 1); // keep removing the rightmost set bit
+        while(left < right){
+            right &= (right - 1);
         }
         return right;
     }
