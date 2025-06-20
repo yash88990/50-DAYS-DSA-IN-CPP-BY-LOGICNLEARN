@@ -5,6 +5,10 @@ class Solution {
     // Function to check if given number n is a power of two.
     bool isPowerofTwo(int n) {
         // code here
-        return (n > 0 && n & ( n-1 )) == 0;
+        for(int i = 0 ; i <= n ; i++){
+            if(pow(2,i) == n)return true;
+            
+        }
+        return false;
     }
 };
