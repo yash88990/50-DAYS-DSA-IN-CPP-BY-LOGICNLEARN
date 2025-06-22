@@ -1,25 +1,28 @@
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    std::vector<int> rightSideView(TreeNode* root) {
-        vector<int> result;
-        if (!root) return result; // If the tree is empty, return empty vector
-        queue<TreeNode*> q;
-        q.push(root); // Push the root node into the queue
-        while (!q.empty()) {
-            int levelSize = q.size(); // Get the number of nodes at the current level
-            for (int i = 0; i < levelSize; ++i) {
-                TreeNode* node = q.front();
-                q.pop();
-                // If it's the last node at this level, add its value to the result
-                if (i == levelSize - 1) {
-                    result.push_back(node->val);
-                }
-                if (node->left) q.push(node->left);
-                if (node->right) q.push(node->right);
-            }
+    void solve(TreeNode* root  ,vector<int>&ans, int lvl){
+        if(!root)return ;
+        if(lvl == ans.size()){
+            ans.push_back(root->val);
         }
+        solve(root->right ,ans , lvl + 1 );
+        solve(root->left , ans , lvl + 1 );
         
-        return result;
+    }
+    vector<int> rightSideView(TreeNode* root) {
+        vector<int>ans;
+        solve(root , ans , 0);
+        return ans;
     }
 };
