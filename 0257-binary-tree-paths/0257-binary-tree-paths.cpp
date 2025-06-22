@@ -1,26 +1,33 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    void dfs(TreeNode* node, string path, vector<string>& res) {
-        if (!node) return;
-
-        // Append current node value
-        if (!path.empty()) path += "->";
-        path += to_string(node->val);
-
-        // If leaf node, store the path
-        if (!node->left && !node->right) {
-            res.push_back(path);
+    void dfs(TreeNode* root  , vector<string>&ans , string path){
+        if(!root)return;
+        //path ko stor karo
+        if(!path.empty())path += "->";
+        path += to_string(root->val);
+        //if reach to leaf node stor in ans
+        if(!root->left && !root->right){
+            ans.push_back(path);
             return;
         }
-
-        // Recurse on left and right children
-        dfs(node->left, path, res);
-        dfs(node->right, path, res);
+        //recc
+        dfs(root->left , ans  , path);
+        dfs(root->right , ans , path);
     }
-
     vector<string> binaryTreePaths(TreeNode* root) {
-        vector<string> res;
-        dfs(root, "", res);
-        return res;
+        vector<string>ans;
+        dfs(root , ans, "");
+        return ans;
     }
 };
