@@ -19,26 +19,42 @@ class Solution {
 
     Node *removeDuplicates(struct Node *head) {
         // Your code here
-        struct Node* temp = head;
-        struct Node* pre = NULL;
-       while(temp!=NULL && temp->next!=NULL){
-            if(temp->data == temp->next->data){
-                if(temp == head){
-                    head = temp->next;
-                }
-                temp->next->prev = pre;
-                if(pre!=NULL){
-                    pre->next = temp->next;
-                }
-                struct Node* curr = temp;
-                temp = temp->next;
-                delete curr;
-            }
-            else{
-                pre = temp;
-                temp = temp->next;
+        
+        if(!head || !head->next)return head;
+        Node* curr = head;
+        Node* prev = NULL;
+        while(curr && curr->next){
+            if(curr->data == curr->next->data){
+                
+                if(curr == head)head = curr->next;
+                
+                Node* nextNode = curr->next;
+                
+                
+                nextNode->prev = prev;
+                
+                if(prev) prev->next = nextNode;
+                Node* deletenode = curr;
+                curr = curr->next;
+                delete deletenode;
+                
+                
+                
+            }else{
+                prev = curr;
+                curr = curr->next;
+                
             }
         }
         return head;
     }
 };
+
+
+
+
+
+
+
+
+
