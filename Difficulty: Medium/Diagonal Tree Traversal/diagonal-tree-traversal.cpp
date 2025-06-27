@@ -9,19 +9,18 @@ class Solution {
   public:
     vector<int> diagonal(Node *root) {
         // code here
-        queue<Node*> q;
-        vector<int> ans;
+        queue<Node*>q;
+        vector<int>ans;
         q.push(root);
         while(!q.empty()){
-            Node *tmp = q.front();
+            Node* temp = q.front();
             q.pop();
-            while(tmp){
-                ans.push_back(tmp->data);
-                if(tmp->left){
-                    q.push(tmp->left);
-                }
-                tmp = tmp->right;
+            while(temp){
+                ans.push_back(temp->data);
+                if(temp->left)q.push(temp->left);
+                temp = temp->right;
             }
+            
         }
         return ans;
     }
