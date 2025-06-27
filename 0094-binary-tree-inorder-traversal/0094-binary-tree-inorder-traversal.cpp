@@ -11,20 +11,23 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root , vector<int>&ans){
-        if(!root)return ;
-        //left 
-        solve(root->left, ans);
-        //ans push/ store krlo;_ node
-        ans.push_back(root->val);
-        //right
-        solve(root->right , ans);
-
-    }
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int>ans;
-        solve(root , ans);
+        stack<TreeNode*> s;
+        TreeNode* curr = root;
+        while(curr || !s.empty()){
+            //left jao
+            while(curr){
+                s.push(curr);
+                curr = curr->left;
+            }
+            //ans me store karo
+            curr = s.top();
+            s.pop();
+            ans.push_back(curr->val);
+            //right me jao
+            curr = curr->right;
+        }
         return ans;
-        
     }
 };
