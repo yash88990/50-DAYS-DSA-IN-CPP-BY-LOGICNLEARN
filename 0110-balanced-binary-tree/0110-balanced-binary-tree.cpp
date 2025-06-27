@@ -18,6 +18,7 @@ public:
         int ans = max(left , right) + 1 ;
         return ans;
     }
+    
     bool isBalanced(TreeNode* root) {
         if(!root)return true;
         bool left = isBalanced(root->left);
