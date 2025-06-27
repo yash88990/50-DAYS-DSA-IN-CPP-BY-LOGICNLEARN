@@ -12,27 +12,32 @@
 class Solution {
 public:
     int leftheight(TreeNode* root){
-        int height = 0 ;
+        if(!root)return 0;
+        int height = 0;
         while(root){
             height++;
             root = root->left;
+            
         }
         return height;
     }
-    int rightheight(TreeNode* root){
-        int height = 0 ;
+
+     int rightheight(TreeNode* root){
+        if(!root)return 0;
+        int height = 0;
         while(root){
             height++;
             root = root->right;
+            
         }
         return height;
     }
+
     int countNodes(TreeNode* root) {
         if(!root)return 0;
         int lh = leftheight(root);
         int rh = rightheight(root);
-        if(lh == rh )return pow(2 , lh )-1;
+        if(lh == rh )return pow(2 , lh) - 1;
         return 1 + countNodes(root->left) + countNodes(root->right);
-        
     }
 };
