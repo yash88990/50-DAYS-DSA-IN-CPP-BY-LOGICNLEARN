@@ -17,7 +17,7 @@ class Solution {
   public:
     bool isCircular(Node *head) {
         // Your code here
-        if(!head )return tr;
+        if(!head)return true;
         Node* slow = head , *fast = head;
         while(fast && fast->next){
             fast = fast->next->next;
