@@ -11,31 +11,19 @@
  */
 class Solution {
 public:
+    void solve(TreeNode* root , vector<int>&ans){
+        if(!root)return ;
+        //left 
+        solve(root->left, ans);
+        //right
+        solve(root->right , ans);
+        //ans push/ store krlo;_ node
+        ans.push_back(root->val);
+
+    }
     vector<int> postorderTraversal(TreeNode* root) {
-        vector<int>result;
-        if(!root)return result;
-        stack<TreeNode*> s;
-        TreeNode* lastvisited = NULL;
-        TreeNode* curr = root;
-        while(curr || !s.empty()){
-            if(curr){
-                s.push(curr);
-                curr = curr->left;
-            }else{
-                TreeNode* node = s.top();
-                if(node->right && node->right != lastvisited){
-                    curr = node->right;
-                }else{
-                    result.push_back(node->val);
-                    lastvisited = node;
-                    s.pop();
-                }
-
-            }
-        }
-        return result;
-        
-
-        
+        vector<int> ans;
+        solve(root , ans);
+        return ans;
     }
 };
