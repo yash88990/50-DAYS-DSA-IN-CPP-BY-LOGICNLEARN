@@ -6,20 +6,21 @@ struct Node
 }; */
 
 class Solution {
-private:
-    int calculateAndModifySumTree(Node* node) {
-        if (node == nullptr) {
-            return 0;
-        }
-        int left_subtree_sum = calculateAndModifySumTree(node->left);
-        int right_subtree_sum = calculateAndModifySumTree(node->right);
-        int original_data = node->data;
-        node->data = left_subtree_sum + right_subtree_sum;
-        return original_data + left_subtree_sum + right_subtree_sum;
+    private:
+    int solve(Node* node){
+        if(node == NULL)return 0;
+        int leftsum = solve(node->left);
+        int rightsum = solve(node->right);
+        int origianaldata = node->data;
+        node->data =  leftsum + rightsum;
+        return origianaldata + leftsum + rightsum;
     }
+  public:
 
-public:
+    // Convert a given tree to a tree where every node contains sum of values of
+    // nodes in left and right subtrees in the original tree
     void toSumTree(Node *node) {
-        calculateAndModifySumTree(node);
+        // Your code here
+        solve(node);
     }
 };
