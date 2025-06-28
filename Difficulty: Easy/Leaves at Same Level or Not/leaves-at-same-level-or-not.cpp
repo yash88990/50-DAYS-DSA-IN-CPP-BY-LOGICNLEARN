@@ -26,12 +26,16 @@ public:
             q.pop();
 
             if (!curr_node->left && !curr_node->right) { // It's a leaf node
+                
                 if (firstLeafLevel == -1) { // This is the first leaf we've encountered
                     firstLeafLevel = level;
                 } else if (level != firstLeafLevel) { // Not all leaves are at the same level
                     return false;
                 }
-            } else { // Not a leaf node, explore children
+            } 
+            
+            
+            else { // Not a leaf node, explore children
                 if (curr_node->left) {
                     q.push({curr_node->left, level + 1});
                 }
