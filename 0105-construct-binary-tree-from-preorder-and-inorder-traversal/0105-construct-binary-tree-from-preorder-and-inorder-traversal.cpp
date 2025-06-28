@@ -11,27 +11,31 @@
  */
 class Solution {
 public:
-    TreeNode* buildTreeHelper(vector<int>& preorder, int preStart, int preEnd,   vector<int>& inorder, int inStart, int inEnd, unordered_map<int, int>& inMap) {
-        // Agar range invalid ho, to NULL return karo
-        if (preStart > preEnd || inStart > inEnd)  return nullptr;
-        // Preorder ka first element root hota hai
-        int rootVal = preorder[preStart];
-        TreeNode* root = new TreeNode(rootVal); // Naya node banao
-        // Root ka index inorder array me dhoondo
-        int inRoot = inMap[rootVal];
-        int numsLeft = inRoot - inStart; // Left subtree ke nodes ki sankhya
-        // Left subtree ke liye recursion karo
-        root->left = buildTreeHelper(preorder, preStart + 1, preStart + numsLeft,  inorder, inStart, inRoot - 1, inMap);
-        // Right subtree ke liye recursion karo
-        root->right = buildTreeHelper(preorder, preStart + numsLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
-        return root; // Root node ko return karo
-    }
+    TreeNode* solve(vector<int> &preorder , int preStart , int preEnd ,vector<int>&inorder , int inStart , int inEnd , unordered_map<int,int>& inMap){
+        //BASE case
+        if(preStart > preEnd || inStart > inEnd)return NULL;
+        //make root node
+        int rootval = preorder[preStart];
+        TreeNode* root = new TreeNode(rootval);
+        //find index of root in inMap
+        int inRoot = inMap[rootval];
+        //divide into two subtree
+        // .1 left wala 
+        int numsleft = inRoot - inStart;
+        //use recc 
+        root->left = solve(preorder , preStart + 1 , preStart + numsleft , inorder , inStart , inRoot - 1, inMap);
+        root->right = solve(preorder , preStart + numsleft + 1 , preEnd , inorder , inRoot + 1 , inEnd , inMap);
+        return root;
 
+    }
+    
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        // Inorder array ke elements ke indices ko hashmap me store karo
-        unordered_map<int, int> inMap;
-        for (int i = 0; i < inorder.size(); i++) inMap[inorder[i]] = i;
-        // Helper function ko call karo poore range ke saath
-        return buildTreeHelper(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1, inMap);
+        //step 1 :- create a map for storing indices of inorder elements
+        unordered_map<int,int> inMap;
+        for(int i = 0 ; i < inorder.size() ; i++){
+            inMap[inorder[i]] = i;
+        }
+        //define a recc function to build tree
+        return solve(preorder , 0 , preorder.size() - 1 , inorder , 0 , inorder.size() -1 , inMap);
     }
 };
