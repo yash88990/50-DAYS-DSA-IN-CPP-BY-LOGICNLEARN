@@ -35,9 +35,9 @@ public:
 
     int countNodes(TreeNode* root) {
         if(!root)return 0;
-        int lh = leftheight(root);
-        int rh = rightheight(root);
-        if(lh == rh )return pow(2 , lh) - 1;
+        // int lh = leftheight(root);
+        // int rh = rightheight(root);
+        // if(lh == rh )return pow(2 , lh) - 1;
         return 1 + countNodes(root->left) + countNodes(root->right);
     }
 };
