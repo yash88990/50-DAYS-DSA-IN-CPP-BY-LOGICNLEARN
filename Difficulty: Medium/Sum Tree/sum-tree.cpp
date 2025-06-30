@@ -7,20 +7,23 @@ struct Node
 
 // Should return true if tree is Sum Tree, else false
 class Solution {
-private:
-    pair<bool, long long> checkAndSum(Node* root) {
-        if (!root) return {true, 0LL};
-        if (!root->left && !root->right ) return {true, root->data};
-        pair<bool, long long> leftans = checkAndSum(root->left);
-        pair<bool, long long> rightans = checkAndSum(root->right);
-        if (!leftans.first || !rightans.first)return {false, 0LL};
-        long long children_subtrees_sum = leftans.second + rightans.second;
-        if (root->data == children_subtrees_sum)
-            return {true, root->data + children_subtrees_sum};
-        else return {false, 0LL};
-    }
-public:
+  public:
+   pair<bool, int> solve(Node* root){
+       if(!root)return {true , 0};
+       if(!root->left && !root->right)return {true , root->data};
+       pair<bool , int> leftans = solve(root->left);
+       pair<bool , int> rightans = solve(root->right);
+       if(!leftans.first || !rightans.first)return {false, 0};
+       int sum = leftans.second + rightans.second;
+       if(root->data == sum){
+           return {true , sum + root->data};
+       }else{
+           return {false, 0};
+       }
+   }
     bool isSumTree(Node* root) {
-        return checkAndSum(root).first;
+        // Your code here
+        
+        return solve(root).first;
     }
 };
