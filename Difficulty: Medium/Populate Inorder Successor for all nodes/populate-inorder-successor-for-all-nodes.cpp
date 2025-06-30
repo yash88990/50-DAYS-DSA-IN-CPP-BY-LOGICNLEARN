@@ -17,21 +17,18 @@ struct Node
 */
 class Solution {
   public:
-    Node* nextNode = NULL;
+      Node* nextNode = NULL;
 
     void populateNext(Node *root) {
-        if (!root) return;
-
-        // Reverse inorder traversal: right -> root -> left
+        // code here
+        if(!root)return;
+        //right
         populateNext(root->right);
-
-        // Set current node's next to the previously visited node
+        //node
         root->next = nextNode;
-
-        // Update the nextNode to current node
         nextNode = root;
-
-        // Continue with left subtree
         populateNext(root->left);
+        
+        
     }
 };
