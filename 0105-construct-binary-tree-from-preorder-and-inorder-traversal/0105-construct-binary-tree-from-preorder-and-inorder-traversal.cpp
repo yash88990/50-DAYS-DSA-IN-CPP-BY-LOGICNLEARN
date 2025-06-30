@@ -21,9 +21,9 @@ public:
             inMap[inorder[i]] = i;
         }
         int index = 0;
-        if (preorder.empty() || inorder.empty()) {
-            return nullptr;
-        }
+        // if (preorder.empty() || inorder.empty()) {
+        //     return nullptr;
+        // }
 
         return buildtree(inorder, 0, inorder.size() - 1, index, preorder, inMap);
     }
