@@ -11,25 +11,19 @@
  */
 class Solution {
 public:
-    pair<int,int> solve(TreeNode* root){
-        if(!root){
-            pair<int,int> p = make_pair(0,0);
-            return p;
-        }
-        
-        pair<int,int> left = solve(root->left);
-        pair<int,int> right = solve(root->right);
-
-        int case1 =  left.first;
-        int case2 = right.first;
-        int case3 = left.second + right.second;
-        pair<int,int> ans;
-        ans.first = max(case1 , max(case2 , case3));
-        ans.second = max(left.second , right.second) + 1;
+    int height(TreeNode* root){
+        if(!root)return 0;
+        int left = height(root->left);
+        int right = height(root->right);
+        int ans = max(left , right) + 1 ;
         return ans;
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        return solve(root).first;
+        if(!root)return 0;
+        int op1 = diameterOfBinaryTree(root->left);
+        int op2 = diameterOfBinaryTree(root->right);
+        int op3 = height(root->left) + height(root->right) ;
+        int ans= max(op1 , max(op2 , op3));
+        return ans;
     }
-
 };
