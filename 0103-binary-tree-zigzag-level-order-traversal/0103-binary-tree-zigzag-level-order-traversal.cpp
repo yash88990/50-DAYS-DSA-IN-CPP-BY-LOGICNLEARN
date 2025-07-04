@@ -12,24 +12,24 @@
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        vector<vector<int>>ans;
+        vector<vector<int>> ans;
         if(!root)return ans;
         queue<TreeNode*> q;
         q.push(root);
-        bool leftToRight = true;
+        bool ltr = true;
         while(!q.empty()){
-            int n  = q.size();
-            vector<int> temp(n);
+            int n = q.size();
+            vector<int>level(n);
             for(int i = 0 ; i < n ; i++){
-                TreeNode* front = q.front();
-                q.pop();
-                int index = leftToRight ? i : n -i - 1;
-                temp[index] = front->val;
-                if(front->left)q.push(front->left);
-                if(front->right)q.push(front->right);
+                 TreeNode* curr = q.front();
+                 q.pop();
+                 int index = ltr ? i : n-1-i;
+                 level[index] = curr->val;
+                 if(curr->left)q.push(curr->left);
+                 if(curr->right)q.push(curr->right);
             }
-            leftToRight = !leftToRight;
-            ans.push_back(temp);
+            ltr = !ltr;
+            ans.push_back(level);  
         }
         return ans;
     }
