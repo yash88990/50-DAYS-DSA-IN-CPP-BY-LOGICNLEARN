@@ -14,14 +14,9 @@ public:
     TreeNode* solve(vector<int> &inorder , int instart , int inend ,vector<int>&postorder , int &index , unordered_map<int,int>& inMap){
         //baese case
         if(instart > inend)return NULL;
-        int rootval = postorder[index];
-        index--;
+        int rootval = postorder[index--];
         TreeNode* root = new TreeNode(rootval);
         int rootindex = inMap[rootval];
-        
-        
-        
-        
         root->right = solve(inorder , rootindex + 1 , inend , postorder , index, inMap);
         root->left = solve(inorder , instart , rootindex - 1 , postorder , index , inMap);
         return root;
