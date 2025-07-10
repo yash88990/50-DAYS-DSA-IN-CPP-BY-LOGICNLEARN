@@ -11,15 +11,19 @@
  */
 class Solution {
 public:
-    TreeNode* solve(vector<int> &inorder , int instart , int inend ,vector<int>&postorder , int poststart  , int  postend , unordered_map<int,int>& inMap){
+    TreeNode* solve(vector<int> &inorder , int instart , int inend ,vector<int>&postorder , int &index , unordered_map<int,int>& inMap){
         //baese case
-        if(instart > inend || poststart > postend)return NULL;
-        int rootval = postorder[postend];
+        if(instart > inend)return NULL;
+        int rootval = postorder[index];
+        index--;
         TreeNode* root = new TreeNode(rootval);
         int rootindex = inMap[rootval];
-        int leftsize = rootindex - instart;
-        root->left = solve(inorder , instart , rootindex - 1 , postorder , poststart , poststart + leftsize  -1  , inMap);
-        root->right = solve(inorder , rootindex + 1 , inend , postorder , poststart + leftsize , postend - 1 , inMap);
+        
+        
+        
+        
+        root->right = solve(inorder , rootindex + 1 , inend , postorder , index, inMap);
+        root->left = solve(inorder , instart , rootindex - 1 , postorder , index , inMap);
         return root;
 
     }
@@ -32,6 +36,7 @@ public:
         for(int i = 0 ;i < inorder.size() ; i++){
             inMap[inorder[i]] = i;
         }
-        return solve(inorder , 0 , inorder.size() - 1 , postorder , 0 , postorder.size() -1  , inMap);
+        int index = postorder.size() -1;
+        return solve(inorder , 0 , inorder.size() - 1 , postorder , index  , inMap);
     }
 };
