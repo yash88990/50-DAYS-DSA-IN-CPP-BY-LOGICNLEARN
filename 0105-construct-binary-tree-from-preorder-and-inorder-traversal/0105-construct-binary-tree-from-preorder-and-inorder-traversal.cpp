@@ -1,20 +1,34 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    TreeNode* buildtree(vector<int>& inorder, int instart, int inend, int &index, vector<int>& preorder, unordered_map<int,int> &inMap) {
-        if(instart > inend) return NULL;
+    TreeNode* solve(vector<int>&inorder , int instart , int inend , vector<int>&preorder , int &index  , unordered_map<int,int>&inmap ){
+        //base case
+        if(instart > inend)return NULL;
         int rootval = preorder[index++];
-        // index++;
-        int rootindex = inMap[rootval];
+        int rootindex = inmap[rootval];
         TreeNode* root = new TreeNode(rootval);
-        root->left = buildtree(inorder, instart, rootindex - 1, index, preorder, inMap);
-        root->right = buildtree(inorder, rootindex + 1, inend, index, preorder, inMap);
+        root->left = solve(inorder , instart , rootindex - 1 , preorder ,index, inmap);
+        root->right = solve(inorder , rootindex + 1 , inend , preorder , index , inmap);
         return root;
-    }
 
+    }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        unordered_map<int,int> inMap;
-        for(int i = 0; i < inorder.size(); i++) inMap[inorder[i]] = i;
+        int n = inorder.size() ;
         int index = 0;
-        return buildtree(inorder, 0, inorder.size() - 1, index, preorder, inMap);
+        unordered_map<int,int>inmap;
+        for(int i = 0 ; i < n ; i++){
+            inmap[inorder[i]] = i; 
+        }
+        return solve(inorder , 0 , n-1, preorder , index , inmap);
     }
 };
