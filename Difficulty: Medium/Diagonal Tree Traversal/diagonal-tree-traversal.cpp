@@ -11,7 +11,7 @@ class Solution {
         // code here
         vector<int>ans;
         if(!root)return ans;
-        queue<Node*>q;
+        queue<Node*> q;
         q.push(root);
         while(!q.empty()){
             Node* curr = q.front();
@@ -19,8 +19,7 @@ class Solution {
             while(curr){
                 ans.push_back(curr->data);
                 if(curr->left)q.push(curr->left);
-                curr= curr->right;
-                
+                curr = curr->right;
             }
         }
         return ans;
