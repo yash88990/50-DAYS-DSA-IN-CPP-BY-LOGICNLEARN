@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Matrix
 |  |
 | ------- |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0124-binary-tree-maximum-path-sum) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Hash Table
 |  |
 | ------- |
