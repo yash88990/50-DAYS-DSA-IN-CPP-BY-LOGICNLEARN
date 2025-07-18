@@ -11,18 +11,17 @@ struct Node
 class Solution {
   public:
     // Function to count the number of leaf nodes in a binary tree.
+    void inorder(Node* root , int &count){
+        if(root == NULL)return ;
+        inorder(root->left , count);
+        if(!root->left && !root->right) count++;
+        inorder(root->right , count);
+    }
     int countLeaves(Node* root) {
         // write code here
-        queue<Node*> q;
-        q.push(root);
+        if(!root)return 0;
         int count = 0;
-        while(!q.empty()){
-            Node* front = q.front();
-            q.pop();
-            if(!front->left && !front->right)count++;
-            if(front->left)q.push(front->left);
-            if(front->right)q.push(front->right);
-        }
+        inorder(root , count);
         return count;
     }
 };
