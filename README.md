@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3617-find-the-original-typed-string-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3617-find-the-original-typed-string-i) |
 | [3396-valid-word](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3396-valid-word) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1302-delete-characters-to-make-fancy-string) |
 ## Breadth-First Search
 |  |
 | ------- |
