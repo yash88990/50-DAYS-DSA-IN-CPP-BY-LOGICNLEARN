@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2202-sum-of-k-mirror-numbers) |
 | [1656-count-good-triplets](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1656-count-good-triplets) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Stack
 |  |
 | ------- |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1813-maximum-erasure-value](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1813-maximum-erasure-value) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2400-minimum-score-after-removals-on-a-tree) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Matrix
 |  |
 | ------- |
@@ -383,4 +385,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
+## Segment Tree
+|  |
+| ------- |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+## Prefix Sum
+|  |
+| ------- |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 <!---LeetCode Topics End-->
