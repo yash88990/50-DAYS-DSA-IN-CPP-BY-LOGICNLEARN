@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1813-maximum-erasure-value) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [2316-count-hills-and-valleys-in-an-array](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2316-count-hills-and-valleys-in-an-array) |
 ## Matrix
 |  |
 | ------- |
