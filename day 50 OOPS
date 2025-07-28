@@ -1,0 +1,561 @@
+
+
+
+//notes link :-    https://excalidraw.com/#json=LnjPxxec3Gi-djZ8ZXbGy,bGRcYy74spyBrQKt60pyRw
+
+
+
+
+
+
+// create a classa and makeobjects
+
+#include <iostream>
+using namespace std;
+
+class car{
+    public:
+    string brand;
+    int speed;
+    void drive(){
+        cout<<brand << "  is running at speed: "<<speed<<"  km/h."<<endl;
+    }
+};
+
+
+int main() {
+    //create an object 
+    car car1;
+    car1.brand = "Tesla";
+    car1.speed = 240;
+    car1.drive();
+    
+    car car2;
+    car2.brand = "BMW";
+    car2.speed = 200;
+    car2.drive();
+    return 0;
+}
+
+
+// encapsulation 
+
+#include <iostream>
+using namespace std;
+
+class BankAccount{
+    private:
+    int balance;
+    
+    public:
+    // set method
+    void setBalance(int b){
+        if(b >= 0)balance = b;
+        else cout<<"invalid balance"<<endl;
+    }
+    //get method
+    int getBalance(){
+        return balance;
+    }
+};
+int main(){
+    BankAccount account1;
+    account1.setBalance(3000);
+    cout<<"Balance:  "<<account1.getBalance()<<endl;
+    return 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+// Abstraction
+#include<iostream>
+using namespace std;
+
+class Animal{
+    public:
+    virtual void makesound() = 0;
+    void sleep(){
+        cout<<" Animal is sleeping..."<<endl;
+    }
+};
+
+//derived class
+
+class Dog : public Animal{
+    public:
+    void makesound() override{
+        cout<<"Dog barks!!!..."<<endl;
+    }
+};
+
+class cat : public Animal{
+    public:
+    void makesound() override{
+        cout<<" cat meow!..."<<endl;
+    }
+};
+
+int main(){
+    Dog d;
+    d.makesound();
+    d.sleep();
+    
+    cat c;
+    c.makesound();
+    c.sleep();
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /.INHERITANCE 
+
+//1. Single inheritance
+
+#include<iostream>
+using namespace std;
+//base class 
+class Animal{
+    public:
+    void sleep(){
+        cout<<" Animal is sleeping..."<<endl;
+    }
+    void eat(){
+        cout<<"Animal is eating..."<<endl;
+    }
+};
+
+//derived class
+class Dog : public Animal{
+    public:
+    //derived class add new feature easily
+    void makesound(){
+        cout<<"Dog barks!!!..."<<endl;
+    }
+};
+
+
+int main(){
+    Dog d;
+    d.sleep();
+    d.eat();
+    d.makesound();
+    return 0;
+}
+
+
+
+
+//  2. multiple inheritance
+#include<iostream>
+using namespace std;
+
+class father{
+    public:
+    void farming(){
+        cout<<"farming from the father..."<<endl;
+    }
+};
+
+class mother{
+    public:
+    void cooking(){
+        cout<<"cooking from mother..."<<endl;
+    }
+};
+
+class child : public father , public  mother{
+    public:
+    void study(){
+        cout<<"child is studying..."<<endl;
+    }
+};
+
+int main(){
+    child c;
+    c.farming();
+    c.cooking();
+    c.study();
+    return 0;
+}
+
+
+
+//2. multilevel
+#include<iostream>
+using namespace std;
+class animal{
+    public:
+    void eat(){
+        cout<<"animal eats"<<endl;
+    }
+};
+class mammel: public animal{
+    public:
+    void walk(){
+        cout<<"mammel walks.."<<endl;
+    }
+};
+
+class human : public mammel{
+    public:
+    void speak(){
+        cout<<"human speaks..."<<endl;
+    }
+};
+
+int main(){
+    human h;
+    h.eat();
+    h.walk();
+    h.speak();
+    return 0;
+    
+}
+
+
+
+
+
+
+//4. heirarchial inheritance
+
+#include<iostream>
+using namespace std;
+class father{
+    public:
+    void walk(){
+        cout<<" walking prop from the father class."<<endl;
+    }
+};
+
+class son: public father{
+    public:
+    void drive(){
+        cout<<"son is driving.."<<endl;
+    }
+};
+class daughter: public father{
+    public:
+    void dancing(){
+        cout<<"daughter is dancing"<<endl;
+    }
+};
+
+int main(){
+    son s;
+    s.walk();
+    s.drive();
+    
+    daughter d;
+    d.walk();
+    d.dancing();
+    
+}
+
+
+
+
+
+
+
+
+
+//5 hybrid inheritance
+#include<iostream>
+using namespace std;
+class father{
+    public:
+    void walk(){
+        cout<<" walking prop from the father class."<<endl;
+    }
+};
+
+class son: public father{
+    public:
+    void drive(){
+        cout<<"son is driving.."<<endl;
+    }
+};
+class daughter: public father{
+    public:
+    void dancing(){
+        cout<<"daughter is dancing"<<endl;
+    }
+};
+
+class friendofdaughter : public daughter{
+    public:
+    void singing(){
+        cout<<"friend can sing"<<endl;
+    }
+};
+
+int main(){
+    son s;
+    s.walk();
+    s.drive();
+    cout<<endl<<endl;
+    daughter d;
+    d.walk();
+    d.dancing();
+     cout<<endl<<endl;
+     
+    friendofdaughter f;
+    f.walk();
+    f.dancing();
+    f.singing();
+    return 0;
+    
+    
+}
+
+
+
+
+
+//POLYMORPHISM
+   //1. COMPILE TIME POLYMORPHISM
+          // 1. FUNCTION OVERLOADING
+           #include<iostream>
+using namespace std;
+class print{
+    public:
+    void show(int x){
+        cout<<"integer : "<<x<<endl;
+    }
+    void show(string s){
+        cout<<"string: "<<s<<endl;
+    }
+    void show(double d){
+        cout<<"double : "<<d<<endl;
+    }
+};
+
+int main(){
+    print p;
+    p.show("yash");
+    p.show(22);
+    p.show(8.7);
+}
+
+
+
+         //2. OPERTAOR OVERLOADING
+#include<iostream>
+using namespace std;
+
+class complex{
+    public:
+    int real , img;
+    //constructor
+    complex(int r , int i){
+        real = r;
+        img =i;
+    }
+    //overloading + operator
+    complex operator + (complex c){
+        return complex(real + c.real , img + c.img);
+    }
+    void display(){
+        cout<<real<<" + "<<img<<" i"<<endl;
+    }
+};
+int main(){
+    complex c1(2,3);
+    complex c2(4,6);
+    complex sum = c1 + c2; // 6 + 9i
+    sum.display();
+    
+}
+
+
+
+
+
+
+
+
+// runtime polymorphism
+#include<iostream>
+using namespace std;
+
+class animal{
+    public:
+    virtual void sound(){
+        cout<<"some animal sound.."<<endl;
+    };
+};
+
+class dog: public animal{
+    public:
+    void sound() override{
+        cout<<"dog barks!!!.."<<endl;
+    }
+};
+
+class cat : public animal{
+    public:
+    void sound() override{
+        cout<<"cat meow..."<<endl;
+    }
+};
+
+int main(){
+    animal *a;
+    dog d;
+    cat c;
+    
+    a = &d;
+    a->sound(); // barks
+    
+    a = &c;
+    a->sound(); // meow
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CONSTRUCTOR
+#include<iostream>
+using namespace std;
+
+class student{
+    public:
+    string name ;
+    int rollno;
+    //default constructor
+    student(){
+        name = "not assigned";
+        rollno = 0;
+        cout<<"inside default constructor"<<endl;
+    }
+    //parametrized constructor
+    student(string n , int r){
+        name = n;
+        rollno = r;
+        cout<<"inside parametrized constructor"<<endl;
+    }
+    
+    //copy constructor
+    student(const student &s){
+        name = s.name;
+        rollno = s.rollno;
+        cout<<"inside copy constructor"<<endl;
+    }
+    
+    void displayinfo(){
+        cout<<"student name is : "<<name << " and roll no. is : "<<rollno<<endl<<endl;
+    }
+    
+    
+};
+
+int main(){
+    student s1;
+    s1.displayinfo();
+    student s2("yash" , 1);
+    s2.displayinfo();
+    student s3 = s2;
+    s3.displayinfo();
+    
+}
+
+
+
+// destructor
+#include<iostream>
+using namespace std;
+
+class student{
+    public:
+    student(){
+        cout<<"constructor : student object created"<<endl;
+    }
+    ~student(){
+        cout<<"destructor: student object destroyed.."<<endl;
+    }
+};
+
+int main(){
+    student s;
+    { student s1;}
+    cout<<"main function end"<<endl;
+    
+   
+    
+}
+
+
+
+
+//friend function
+#include<iostream>
+using namespace std;
+class box{
+    private:
+    int length;
+    public:
+    box(){
+        length = 0;
+    }
+    void setlength(int l){
+        length = l;
+    }
+    //friend function declaration
+    friend void printlength(box b);
+};
+
+void printlength(box b){
+    cout<<"length of box :"<<b.length;
+}
+int main(){
+    box b;
+    b.setlength(10);
+    printlength(b);
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
