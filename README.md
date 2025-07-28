@@ -408,4 +408,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0197-rising-temperature](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0197-rising-temperature) |
 | [1801-average-time-of-process-per-machine](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1801-average-time-of-process-per-machine) |
 | [0176-second-highest-salary](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0176-second-highest-salary) |
+| [0620-not-boring-movies](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0620-not-boring-movies) |
 <!---LeetCode Topics End-->
