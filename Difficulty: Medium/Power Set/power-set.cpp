@@ -1,21 +1,21 @@
 class Solution {
   public:
-    vector<string> AllPossibleStrings(string s) {
-        int n = s.length();
-        int total = 1 << n; // 2^n subsequences
-        vector<string> result;
-
-        for (int i = 1; i < total; i++) {
-            string subseq = "";
-            for (int j = 0; j < n; j++) {
-                if (i & (1 << j)) {
-                    subseq += s[j];
-                }
-            }
-            result.push_back(subseq);
+    void solve(string s, vector<string> &ans, int idx, string temp){
+        if(idx>=s.size()){
+            ans.push_back(temp);
+            return;
         }
-
-        sort(result.begin(), result.end()); // Lexicographical order
-        return result;
+        solve(s,ans,idx+1,temp);
+        solve(s,ans,idx+1,temp+s[idx]);
+        
+        return;
+    }
+    vector<string> AllPossibleStrings(string s) {
+        // Code here
+        vector<string> ans;
+        solve(s,ans,0,"");
+        sort(ans.begin(),ans.end());
+        return ans;
     }
 };
+
