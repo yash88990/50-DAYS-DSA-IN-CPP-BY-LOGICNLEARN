@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //top down approach
     int solve(string & a , string & b, int i ,int j, vector<vector<int>> &dp  ){
         //base case
         if( i == a.size() || j == b.size())return 0;
@@ -10,6 +11,7 @@ public:
         return dp[i][j] = ans;
 
     }
+    //bottom up approach
     int solvetabulation(string a , string b){
         vector<vector<int>>dp(a.length() +1  , vector<int>(b.length() + 1 , 0));
         for(int i = a.length() - 1 ; i >= 0 ; i--){
@@ -23,6 +25,7 @@ public:
         }
         return dp[0][0];
     }
+    //space optimization
     int spaceopti(string a , string b){
         vector<int> curr(b.length() + 1 , 0);
         vector<int> next(b.length() +1  , 0);
@@ -40,8 +43,13 @@ public:
 
     }
     int longestCommonSubsequence(string text1, string text2) {
+        //top down approach
         // vector<vector<int>>dp(text1.size() , vector<int>(text2.size() , -1));
+        
+        // bottom up approach
         // return solve(text1 , text2, 0,0 , dp);
+        
+        //space optimization
         // return solvetabulation(text1, text2);
         return spaceopti(text1, text2);
     }
