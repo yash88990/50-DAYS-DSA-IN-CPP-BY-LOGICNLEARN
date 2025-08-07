@@ -252,11 +252,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [3790-fruits-into-baskets-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3791-fruits-into-baskets-iii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0048-rotate-image) |
 | [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Greedy
 |  |
 | ------- |
@@ -301,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0934-bitwise-ors-of-subarrays](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1250-longest-common-subsequence](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1250-longest-common-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0516-longest-palindromic-subsequence) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Hash Table
 |  |
 | ------- |
