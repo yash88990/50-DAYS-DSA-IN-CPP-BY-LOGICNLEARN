@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [2529-range-product-queries-of-powers](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2529-range-product-queries-of-powers) |
 | [0035-search-insert-position](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0035-search-insert-position) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 ## Matrix
 |  |
 | ------- |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3791-fruits-into-baskets-iii) |
 | [0035-search-insert-position](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0035-search-insert-position) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 ## Backtracking
 |  |
 | ------- |
