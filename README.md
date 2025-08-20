@@ -278,12 +278,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0540-single-element-in-a-sorted-array) |
 | [0679-24-game](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0679-24-game) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2432-number-of-zero-filled-subarrays) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0048-rotate-image) |
 | [0037-sudoku-solver](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0037-sudoku-solver) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Greedy
 |  |
 | ------- |
@@ -332,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [0826-soup-servings](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0867-new-21-game) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Hash Table
 |  |
 | ------- |
