@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0867-new-21-game) |
 | [0679-24-game](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0679-24-game) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2432-number-of-zero-filled-subarrays) |
+| [0012-integer-to-roman](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0012-integer-to-roman) |
 ## Combinatorics
 |  |
 | ------- |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1250-longest-common-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0516-longest-palindromic-subsequence) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [0012-integer-to-roman](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0012-integer-to-roman) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -352,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1813-maximum-erasure-value) |
 | [2689-rearranging-fruits](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2689-rearranging-fruits) |
 | [0900-reordered-power-of-2](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0900-reordered-power-of-2) |
+| [0012-integer-to-roman](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0012-integer-to-roman) |
 ## Counting
 |  |
 | ------- |
