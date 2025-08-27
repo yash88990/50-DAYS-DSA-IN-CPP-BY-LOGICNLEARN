@@ -517,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1155-product-sales-analysis-iii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1155-product-sales-analysis-iii) |
 | [0596-classes-with-at-least-5-students](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0596-classes-with-at-least-5-students) |
 | [1877-find-followers-count](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1877-find-followers-count) |
+| [0619-biggest-single-number](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0619-biggest-single-number) |
 ## Brainteaser
 |  |
 | ------- |
