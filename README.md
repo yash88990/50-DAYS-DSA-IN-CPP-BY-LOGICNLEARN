@@ -531,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-movie-rating](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1480-movie-rating) |
 | [1452-restaurant-growth](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1452-restaurant-growth) |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
+| [0585-investments-in-2016](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0585-investments-in-2016) |
 ## Brainteaser
 |  |
 | ------- |
