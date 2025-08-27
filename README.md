@@ -535,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0185-department-top-three-salaries](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0185-department-top-three-salaries) |
 | [1811-fix-names-in-a-table](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1811-fix-names-in-a-table) |
 | [1670-patients-with-a-condition](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1670-patients-with-a-condition) |
+| [0196-delete-duplicate-emails](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0196-delete-duplicate-emails) |
 ## Brainteaser
 |  |
 | ------- |
