@@ -527,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1327-last-person-to-fit-in-the-bus](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1327-last-person-to-fit-in-the-bus) |
 | [2057-count-salary-categories](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2057-count-salary-categories) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2127-employees-whose-manager-left-the-company) |
+| [0626-exchange-seats](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0626-exchange-seats) |
 ## Brainteaser
 |  |
 | ------- |
