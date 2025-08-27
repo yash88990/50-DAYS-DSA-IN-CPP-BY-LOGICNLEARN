@@ -507,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2087-confirmation-rate](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/2087-confirmation-rate) |
 | [1390-average-selling-price](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1390-average-selling-price) |
 | [1161-project-employees-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1161-project-employees-i) |
+| [1773-percentage-of-users-attended-a-contest](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1773-percentage-of-users-attended-a-contest) |
 ## Brainteaser
 |  |
 | ------- |
