@@ -538,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0196-delete-duplicate-emails](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0196-delete-duplicate-emails) |
 | [1625-group-sold-products-by-the-date](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1625-group-sold-products-by-the-date) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1462-list-the-products-ordered-in-a-period) |
+| [1664-find-users-with-valid-e-mails](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1664-find-users-with-valid-e-mails) |
 ## Brainteaser
 |  |
 | ------- |
