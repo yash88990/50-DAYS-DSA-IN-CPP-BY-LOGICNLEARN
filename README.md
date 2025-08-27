@@ -519,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-find-followers-count](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1877-find-followers-count) |
 | [0619-biggest-single-number](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0619-biggest-single-number) |
 | [1135-customers-who-bought-all-products](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1135-customers-who-bought-all-products) |
+| [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 ## Brainteaser
 |  |
 | ------- |
