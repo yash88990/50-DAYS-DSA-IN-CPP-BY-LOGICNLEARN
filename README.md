@@ -511,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1338-queries-quality-and-percentage](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1338-queries-quality-and-percentage) |
 | [1317-monthly-transactions-i](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1317-monthly-transactions-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1292-immediate-food-delivery-ii) |
+| [1182-game-play-analysis-iv](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1182-game-play-analysis-iv) |
 ## Brainteaser
 |  |
 | ------- |
