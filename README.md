@@ -533,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
 | [0585-investments-in-2016](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0585-investments-in-2016) |
 | [0185-department-top-three-salaries](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/0185-department-top-three-salaries) |
+| [1811-fix-names-in-a-table](https://github.com/yash88990/50-DAYS-DSA-IN-CPP-BY-LOGICNLEARN/tree/master/1811-fix-names-in-a-table) |
 ## Brainteaser
 |  |
 | ------- |
