@@ -2,25 +2,21 @@ class Solution {
   public:
     vector<int> deleteElement(vector<int>& arr, int k) {
         // complete the function
-        stack<int> st;
-        vector<int> ans;
-        int count=0;
-        
-        for(int i=0;i<=arr.size()-1;i++){
-            while(!st.empty() && st.top()<arr[i] && count<k){
-                st.pop();
-                count++;
-            }
-            
-            st.push(arr[i]);
+        vector<int> res;
+        int n = arr.size();
+    res.resize(n);
+    int ptr = -1;
+    for (int i = 0; i < n; i++) {
+        while (ptr >-1 &&  res[ptr] < arr[i] && k > 0) {
+            ptr--;
+            k--;
         }
         
-        while(!st.empty()){
-            ans.push_back(st.top());
-            st.pop();
-        }
-        reverse(ans.begin(),ans.end());
-        return ans;
-        
+        ptr++;
+        res[ptr] = arr[i];
+    }
+    res.resize(ptr + 1);
+    
+    return res;
     }
 };
