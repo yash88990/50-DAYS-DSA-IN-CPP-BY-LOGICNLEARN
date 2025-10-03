@@ -5,10 +5,7 @@ int main() {
     double d;
     cin >> d;
     // Typecast and Print
-    int ans = int(d);
-    cout<<ans<<endl;
-    
-    
+    cout<<int(d)<<endl;
 
     return 0;
 }
