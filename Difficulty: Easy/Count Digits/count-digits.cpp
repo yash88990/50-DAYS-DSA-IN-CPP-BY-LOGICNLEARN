@@ -3,13 +3,14 @@ class Solution {
     // Function to count the number of digits in n that evenly divide n
     int evenlyDivides(int n) {
         // code here
-        int cnt = 0;
+        int count = 0;
         int num = n;
-        while(num > 0){
-            int digit = num % 10 ;
-            if( digit != 0 && n % digit == 0 )cnt++;
-            num /= 10;
+        while(n != 0){
+            int digit = n % 10;
+            if( digit != 0 && num % digit == 0)count++;
+            n /= 10;
         }
-        return cnt;
+        return count;
+        
     }
 };
